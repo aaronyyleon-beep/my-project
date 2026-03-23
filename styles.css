@@ -274,7 +274,7 @@ h3 {
 .perspective-note {
   margin-top: 18px;
   padding: 20px 22px;
-  border-left: 4px solid #9c63ff;
+  border-left: 4px solid #76f1bf;
   border-radius: 0 18px 18px 0;
   background:
     linear-gradient(90deg, rgba(35, 22, 86, 0.98) 0%, rgba(15, 20, 52, 0.98) 100%);
@@ -292,7 +292,7 @@ h3 {
 .perspective-note span {
   display: inline-block;
   margin-right: 12px;
-  color: #ffd565;
+  color: #76f1bf;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
