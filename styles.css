@@ -463,6 +463,32 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  margin-top: 16px;
+  padding: 0 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--text);
+  text-decoration: none;
+  background: rgba(18, 16, 42, 0.72);
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease,
+    color 180ms ease;
+}
+
+.project-link:hover {
+  color: #efe9ff;
+  border-color: rgba(169, 112, 255, 0.44);
+  background: rgba(30, 23, 64, 0.98);
+  transform: translateY(-1px);
+}
+
 .footer {
   padding: 24px 4px 8px;
   border-top: 1px solid var(--line);
