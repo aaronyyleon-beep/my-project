@@ -494,6 +494,27 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
+.footer-signoff {
+  display: grid;
+  gap: 4px;
+}
+
+.footer-contact {
+  max-width: 34rem;
+  text-align: right;
+}
+
+.footer-contact a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 213, 101, 0.4);
+}
+
+.footer-contact a:hover {
+  color: #fff5cf;
+  border-bottom-color: rgba(255, 213, 101, 0.78);
+}
+
 @media (max-width: 960px) {
   .section-heading.split,
   .about-panel {
@@ -557,6 +578,10 @@ h3 {
 
   .hero h2 {
     max-width: 10ch;
+  }
+
+  .footer-contact {
+    text-align: left;
   }
 }
 
